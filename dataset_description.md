@@ -43,7 +43,7 @@ During simulation tests, it was observed that the robot could demand **electrica
 Based on the simulation results, improvements to the robot's electrical system were proposed. The solution included the integration of:
 
 - **Supercapacitors** to support peak current demand
-- **INA current sensing modules (INA219 / INA292)** to monitor current consumption and detect voltage drops in real time
+- **INA current sensing modules (INA219)** to monitor current consumption and detect voltage drops in real time
 
 This improvement helps prevent voltage instability and improves energy management in the robotic platform.
 
