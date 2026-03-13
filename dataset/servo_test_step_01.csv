@@ -1,0 +1,32 @@
+experiment_id,test_type,platform,phase,power_system,current_sensor,time_s,voltage_V,current_A,position_deg,velocity_deg_s,torque_Nm,notes
+TWINIA_SERVO_01,step_input,real_robot,model_validation,supercapacitor_assist,INA292,0.00,6.05,0.18,0.0,0.0,0.00,baseline before step
+TWINIA_SERVO_01,step_input,real_robot,model_validation,supercapacitor_assist,INA292,0.02,6.04,0.22,1.2,60.0,0.03,actuator response start
+TWINIA_SERVO_01,step_input,real_robot,model_validation,supercapacitor_assist,INA292,0.04,6.03,0.28,3.5,115.0,0.05,transient phase
+TWINIA_SERVO_01,step_input,real_robot,model_validation,supercapacitor_assist,INA292,0.06,6.02,0.35,6.8,165.0,0.07,transient phase
+TWINIA_SERVO_01,step_input,real_robot,model_validation,supercapacitor_assist,INA292,0.08,6.01,0.41,10.5,185.0,0.09,approaching steady state
+TWINIA_SERVO_01,step_input,real_robot,model_validation,supercapacitor_assist,INA292,0.10,6.01,0.46,14.0,175.0,0.10,steady region start
+TWINIA_SERVO_01,step_input,real_robot,model_validation,supercapacitor_assist,INA292,0.12,6.00,0.50,17.0,160.0,0.11,steady response
+TWINIA_SERVO_01,step_input,real_robot,model_validation,supercapacitor_assist,INA292,0.14,6.00,0.54,19.5,145.0,0.11,steady response
+TWINIA_SERVO_01,step_input,real_robot,model_validation,supercapacitor_assist,INA292,0.16,5.99,0.58,21.0,120.0,0.12,slight load effect
+TWINIA_SERVO_01,step_input,real_robot,model_validation,supercapacitor_assist,INA292,0.18,5.98,0.62,22.0,95.0,0.12,stable region
+TWINIA_SERVO_01,step_input,real_robot,model_validation,supercapacitor_assist,INA292,0.20,5.98,0.66,22.8,75.0,0.12,steady state
+TWINIA_SERVO_01,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.22,6.00,0.85,24.5,210.0,0.15,simulation predicted higher current
+TWINIA_SERVO_01,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.24,6.00,1.20,27.5,250.0,0.18,simulation peak current
+TWINIA_SERVO_01,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.26,6.00,1.60,30.2,275.0,0.21,simulated transient peak
+TWINIA_SERVO_01,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.28,6.00,2.05,33.0,290.0,0.23,current demand increasing
+TWINIA_SERVO_01,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.30,6.00,2.50,35.0,305.0,0.25,simulation near power limit
+TWINIA_SERVO_01,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.32,6.00,3.20,37.5,315.0,0.27,current rising
+TWINIA_SERVO_01,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.34,6.00,4.00,40.2,320.0,0.29,simulated load condition
+TWINIA_SERVO_01,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.36,6.00,5.10,42.5,325.0,0.32,simulated stress test
+TWINIA_SERVO_01,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.38,6.00,6.50,44.0,330.0,0.35,current rising
+TWINIA_SERVO_01,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.40,6.00,7.80,45.5,335.0,0.37,approaching physical robot limit
+TWINIA_SERVO_01,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.42,6.00,8.40,46.5,338.0,0.39,current above safe limit
+TWINIA_SERVO_01,step_input,analysis,energy_evaluation,power_upgrade_proposed,INA292,0.44,5.97,0.70,47.0,120.0,0.14,real system stabilized with supercapacitor
+TWINIA_SERVO_01,step_input,analysis,energy_evaluation,power_upgrade_proposed,INA292,0.46,5.97,0.65,47.2,95.0,0.13,voltage drop mitigation
+TWINIA_SERVO_01,step_input,analysis,energy_evaluation,power_upgrade_proposed,INA292,0.48,5.96,0.62,47.4,75.0,0.13,energy support phase
+TWINIA_SERVO_01,step_input,analysis,energy_evaluation,power_upgrade_proposed,INA292,0.50,5.96,0.60,47.5,60.0,0.12,stable operation
+TWINIA_SERVO_01,step_input,analysis,energy_evaluation,power_upgrade_proposed,INA292,0.52,5.96,0.59,47.6,50.0,0.12,system stabilized
+TWINIA_SERVO_01,step_input,analysis,energy_evaluation,power_upgrade_proposed,INA292,0.54,5.96,0.58,47.6,45.0,0.12,supercapacitor discharge support
+TWINIA_SERVO_01,step_input,analysis,energy_evaluation,power_upgrade_proposed,INA292,0.56,5.96,0.57,47.7,40.0,0.12,low load condition
+TWINIA_SERVO_01,step_input,analysis,energy_evaluation,power_upgrade_proposed,INA292,0.58,5.96,0.56,47.7,38.0,0.12,steady system
+TWINIA_SERVO_01,step_input,analysis,energy_evaluation,power_upgrade_proposed,INA292,0.60,5.96,0.55,47.8,36.0,0.11,end of test
