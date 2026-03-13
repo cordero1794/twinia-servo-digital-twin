@@ -1,7 +1,7 @@
 # TWINIA Servo Digital Twin
 
 Experimental dataset and modeling framework for servo motor identification in the quadruped robot **TWINIA**.  
-This project supports digital twin development and sim-to-real validation using experimental measurements and integration with NVIDIA Omniverse for robotic system analysis.
+This project supports digital twin development and sim-to-real validation using experimental measurements and integration with NVIDIA Omniverse Isaac Sim for robotic system analysis.
 
 ---
 
@@ -13,9 +13,7 @@ The work is part of a doctoral research project focused on the development of **
 
 The main goal of the project is to reduce the gap between simulated robotic environments and real robotic systems through a systematic **simulation-to-reality (sim-to-real) validation methodology**.
 
-To achieve this objective, controlled experiments were performed on the servo motors responsible for the locomotion system of the robot. Electrical and mechanical variables were recorded and used to estimate the dynamic parameters of the actuators.
-
-The identified models are then integrated into a **digital twin environment in NVIDIA Omniverse**, allowing comparison between simulated robot behavior and the physical platform.
+To achieve this objective, the research followed a multi-stage process including theoretical modeling, experimental approximation, simulation validation, and hardware improvements to the physical robot platform.
 
 ---
 
@@ -28,6 +26,50 @@ Digital twin technology provides a powerful solution to this problem by creating
 This project contributes to this field by developing an experimentally validated model of the servo motors used in a quadruped robot and integrating this model into a simulation environment.
 
 The resulting framework enables more accurate simulation and improves the reliability of sim-to-real transfer for robotic systems.
+
+---
+
+# Development Process
+
+The research conducted during the doctoral internship was developed in several stages.
+
+### 1. Theoretical Mathematical Modeling
+
+The first stage focused on the **theoretical development of the mathematical model of the servo motors** used in the locomotion system of the quadruped robot.
+
+Electrical and mechanical characteristics of the actuators were analyzed in order to derive a mathematical representation describing the dynamic response of the servo motors.
+
+---
+
+### 2. Parameter Approximation Using Real Robot Data
+
+After defining the theoretical model, the next stage involved **approximating the model parameters using measurements obtained from the real quadruped robot**.
+
+Experimental data allowed the adjustment of the mathematical model so that it accurately represented the behavior of the physical actuators.
+
+---
+
+### 3. Simulation and Digital Twin Validation
+
+Once the mathematical model was validated, it was integrated into the **digital twin simulation environment using NVIDIA Omniverse Isaac Sim**.
+
+This stage allowed the comparison between the expected behavior of the simulated robot and the physical robotic platform.
+
+During the simulation process, it was observed that the simulated robot required **higher electrical current consumption than the real robot could safely provide**.
+
+Specifically, the simulation indicated that the robot could demand **more than 8 amperes**, which exceeds the safe current capacity of the physical robot platform.
+
+---
+
+### 4. Hardware Improvement of the Physical Robot
+
+Based on the simulation results, an improvement to the robot's electrical power system was proposed.
+
+The solution involved the integration of **supercapacitors** to support peak current demands during locomotion.
+
+Additionally, **INA current sensing modules (INA219 / INA292)** were incorporated to monitor voltage drops and current consumption in real time.
+
+This monitoring system allows detection of voltage drops and helps prevent power instability in the robot.
 
 ---
 
@@ -88,7 +130,7 @@ The recorded data are used for:
 
 # Digital Twin Integration
 
-The identified actuator models are integrated into a **digital twin environment** developed in NVIDIA Omniverse.
+The identified actuator models are integrated into a **digital twin environment** developed in **NVIDIA Omniverse Isaac Sim**.
 
 The digital twin allows simulation of the robot under realistic conditions and enables comparison between simulated and real robot behavior.
 
@@ -106,7 +148,6 @@ This approach enables the development of more accurate robotic simulations.
 # Repository Structure
 
 The repository is organized as follows:
-
 dataset/
 Experimental measurements recorded during servo motor tests
 
@@ -121,6 +162,7 @@ Plots and validation results comparing simulation and real robot behavior
 
 docs/
 Dataset documentation and experimental description
+
 
 ---
 
@@ -152,7 +194,7 @@ The dataset contains measurements recorded during laboratory experiments perform
 
 If you use this dataset or code in your research, please cite:
 
-Cordero Pareja, J. A. (2026)  
+Cordero Pareja, J. A., López Sotelo, J. A., & Carreño Zagarra, J. J. (2026)  
 Experimental Dataset and Servo Motor Modeling for the Quadruped Robot TWINIA.
 
 Dataset DOI (to be generated through Zenodo)
@@ -175,6 +217,7 @@ Research Tutor – Doctoral Internship
 Universidad Industrial de Santander (UIS)
 
 Research Area:
+
 - Robotics
 - Digital Twins
 - Artificial Intelligence for Autonomous Systems
@@ -189,6 +232,6 @@ This project is released under the MIT License.
 
 # Acknowledgments
 
-This work was developed as part of a doctoral research project focused on the development of digital twins for robotic systems.
+This work was developed as part of a doctoral research project focused on the development of **Digital Twins for Artificial Intelligence in Mobile Robotics**.
 
-The research integrates experimental robotics, system identification, and simulation technologies to improve the reliability of robotic simulations and enable more effective sim-to-real transfer.
+The research integrates experimental robotics, system identification, simulation technologies, and hardware improvements to enhance the reliability of robotic simulations and improve the energy performance of the physical robotic platform.
