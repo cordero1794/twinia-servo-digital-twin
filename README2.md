@@ -67,7 +67,7 @@ Based on the simulation results, an improvement to the robot's electrical power 
 
 The solution involved the integration of **supercapacitors** to support peak current demands during locomotion.
 
-Additionally, **INA current sensing modules (INA219 / INA292)** were incorporated to monitor voltage drops and current consumption in real time.
+Additionally, **INA current sensing modules (INA219)** were incorporated to monitor voltage drops and current consumption in real time.
 
 This monitoring system allows detection of voltage drops and helps prevent power instability in the robot.
 
