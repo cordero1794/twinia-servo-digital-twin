@@ -1,0 +1,25 @@
+experiment_id,test_type,platform,phase,power_system,current_sensor,time_s,voltage_V,current_A,position_deg,velocity_deg_s,torque_Nm,notes
+TWINIA_SERVO_04,step_input,real_robot,model_validation,standard_battery,INA219,0.00,6.05,0.19,0.0,0.0,0.00,initial state before step command
+TWINIA_SERVO_04,step_input,real_robot,model_validation,standard_battery,INA219,0.02,6.04,0.24,1.5,65.0,0.03,start of transient response
+TWINIA_SERVO_04,step_input,real_robot,model_validation,standard_battery,INA219,0.04,6.03,0.30,3.9,120.0,0.05,transient phase
+TWINIA_SERVO_04,step_input,real_robot,model_validation,standard_battery,INA219,0.06,6.02,0.37,7.5,170.0,0.07,transient acceleration
+TWINIA_SERVO_04,step_input,real_robot,model_validation,standard_battery,INA219,0.08,6.01,0.42,11.2,190.0,0.09,approaching steady state
+TWINIA_SERVO_04,step_input,real_robot,model_validation,standard_battery,INA219,0.10,6.01,0.47,15.0,180.0,0.10,stable movement
+TWINIA_SERVO_04,step_input,real_robot,model_validation,standard_battery,INA219,0.12,6.00,0.52,18.4,165.0,0.11,steady region
+TWINIA_SERVO_04,step_input,real_robot,model_validation,standard_battery,INA219,0.14,6.00,0.56,21.0,150.0,0.12,actuator stabilization
+TWINIA_SERVO_04,step_input,real_robot,model_validation,standard_battery,INA219,0.16,5.99,0.60,23.0,125.0,0.12,load interaction
+TWINIA_SERVO_04,step_input,real_robot,model_validation,standard_battery,INA219,0.18,5.98,0.64,24.2,100.0,0.13,steady state
+TWINIA_SERVO_04,step_input,real_robot,model_validation,standard_battery,INA219,0.20,5.98,0.67,24.8,80.0,0.13,stable response
+TWINIA_SERVO_04,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.22,6.00,0.95,26.5,215.0,0.15,simulation dynamic response
+TWINIA_SERVO_04,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.24,6.00,1.40,29.8,255.0,0.18,simulated current increase
+TWINIA_SERVO_04,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.26,6.00,1.90,33.0,280.0,0.21,simulated load
+TWINIA_SERVO_04,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.28,6.00,2.60,36.5,300.0,0.24,high dynamic demand
+TWINIA_SERVO_04,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.30,6.00,3.30,39.5,315.0,0.26,simulation stress condition
+TWINIA_SERVO_04,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.32,6.00,4.10,42.0,325.0,0.29,current rising
+TWINIA_SERVO_04,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.34,6.00,5.30,44.0,335.0,0.32,simulation near current limit
+TWINIA_SERVO_04,step_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.36,6.00,6.80,45.2,340.0,0.35,simulated current peak
+TWINIA_SERVO_04,step_input,analysis,energy_evaluation,supercapacitor_assist,INA219,0.38,5.97,0.72,46.0,150.0,0.15,supercapacitor stabilization
+TWINIA_SERVO_04,step_input,analysis,energy_evaluation,supercapacitor_assist,INA219,0.40,5.97,0.68,46.3,120.0,0.14,voltage drop mitigation
+TWINIA_SERVO_04,step_input,analysis,energy_evaluation,supercapacitor_assist,INA219,0.42,5.96,0.65,46.6,100.0,0.13,stable current region
+TWINIA_SERVO_04,step_input,analysis,energy_evaluation,supercapacitor_assist,INA219,0.44,5.96,0.63,46.8,85.0,0.13,energy buffer support
+TWINIA_SERVO_04,step_input,analysis,energy_evaluation,supercapacitor_assist,INA219,0.46,5.96,0.61,47.0,70.0,0.12,end of experiment
