@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "Experimental Dataset and Servo Motor Modeling for the Quadruped Robot TWINIA"
+message: "If you use this repository, please cite it as follows."
+type: dataset
+authors:
+  - family-names: Cordero Pareja
+    given-names: Jhonattan Alexander
+    affiliation: Universidad Autónoma de Bucaramanga
+
+  - family-names: López Sotelo
+    given-names: Jesús Alfonso
+    affiliation: Universidad Autónoma deL Occidente
+
+  - family-names: Carreño Zagarra
+    given-names: José Jorge
+    affiliation: Universidad Industrial de Santander
+
+version: 1.0
+date-released: 2026
+repository-code: https://github.com/cordero1794/twinia-servo-digital-twin
+license: MIT
+keywords:
+  - digital twins
+  - quadruped robotics
+  - servo motor modeling
+  - sim-to-real transfer
+  - robot dynamics
+  - experimental robotics
