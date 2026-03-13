@@ -1,0 +1,144 @@
+{
+  "dataset_title": "Experimental Dataset and Servo Motor Modeling for the Quadruped Robot TWINIA",
+  "dataset_version": "1.0",
+  "year": 2026,
+  "language": "en",
+  "description": "This dataset contains experimental measurements used for the identification and validation of servo motor dynamics in the quadruped robot TWINIA. The experiments were developed during a doctoral internship and include theoretical modeling, real robot approximation, simulation-based validation in NVIDIA Omniverse Isaac Sim, and energy system analysis using INA219 sensors and supercapacitor-assisted power support.",
+  "authors": [
+    {
+      "name": "Jhonattan Alexander Cordero Pareja",
+      "role": "Principal Author",
+      "affiliation": "Doctoral Researcher in Engineering"
+    },
+    {
+      "name": "Jesús Alfonso López Sotelo",
+      "role": "Doctoral Thesis Director",
+      "affiliation": "Universidad Autónoma del Occidente"
+    },
+    {
+      "name": "José Jorge Carreño Zagarra",
+      "role": "Research Tutor - Doctoral Internship",
+      "affiliation": "Universidad Industrial de Santander"
+    }
+  ],
+  "research_context": {
+    "project": "Digital Twins and Physical Artificial Intelligence for Mobile Robotics",
+    "robot_platform": "TWINIA Quadruped Robot",
+    "simulation_environment": "NVIDIA Omniverse Isaac Sim",
+    "objective": "To reduce the sim-to-real gap through servo motor identification, actuator model validation, and digital twin integration."
+  },
+  "experimental_workflow": [
+    "Theoretical mathematical modeling of servo motors",
+    "Approximation of model parameters using real robot measurements",
+    "Validation in NVIDIA Omniverse Isaac Sim",
+    "Detection of high current demand during simulation",
+    "Proposal of hardware improvements using supercapacitors and INA219 sensing modules"
+  ],
+  "sensors": [
+    {
+      "name": "INA219",
+      "type": "Current and voltage sensor",
+      "purpose": "Monitoring current consumption and voltage drop detection"
+    }
+  ],
+  "variables": [
+    {
+      "name": "experiment_id",
+      "description": "Unique identifier of the experiment"
+    },
+    {
+      "name": "test_type",
+      "description": "Type of excitation test applied to the servo motor"
+    },
+    {
+      "name": "platform",
+      "description": "Source platform of the data (real robot, simulation, analysis)"
+    },
+    {
+      "name": "phase",
+      "description": "Stage of the experimental process"
+    },
+    {
+      "name": "power_system",
+      "description": "Power configuration used during the test"
+    },
+    {
+      "name": "current_sensor",
+      "description": "Sensor used for current and voltage acquisition"
+    },
+    {
+      "name": "time_s",
+      "description": "Time in seconds"
+    },
+    {
+      "name": "voltage_V",
+      "description": "Voltage in volts"
+    },
+    {
+      "name": "current_A",
+      "description": "Current in amperes"
+    },
+    {
+      "name": "position_deg",
+      "description": "Angular position in degrees"
+    },
+    {
+      "name": "velocity_deg_s",
+      "description": "Angular velocity in degrees per second"
+    },
+    {
+      "name": "torque_Nm",
+      "description": "Estimated torque in newton-meters"
+    },
+    {
+      "name": "notes",
+      "description": "Experimental observation or annotation"
+    }
+  ],
+  "test_files": [
+    {
+      "file_name": "servo_test_step_01.csv",
+      "test_description": "Step response experiment for transient analysis"
+    },
+    {
+      "file_name": "servo_test_step_02.csv",
+      "test_description": "Second step response experiment for repeatability validation"
+    },
+    {
+      "file_name": "servo_test_ramp_01.csv",
+      "test_description": "Ramp input experiment for continuous motion analysis"
+    },
+    {
+      "file_name": "servo_test_ramp_02.csv",
+      "test_description": "Second ramp input experiment for repeatability validation"
+    },
+    {
+      "file_name": "servo_test_chirp_01.csv",
+      "test_description": "Chirp excitation experiment for frequency response analysis"
+    },
+    {
+      "file_name": "servo_test_chirp_02.csv",
+      "test_description": "Second chirp experiment for repeatability validation"
+    }
+  ],
+  "repository_structure": {
+    "dataset": "Experimental CSV files",
+    "scripts": "Python scripts for analysis and visualization",
+    "models": "Mathematical models of servo motors",
+    "figures": "Generated plots and validation figures",
+    "docs": "Metadata and dataset documentation"
+  },
+  "license": "MIT",
+  "keywords": [
+    "digital twins",
+    "quadruped robotics",
+    "servo motor modeling",
+    "sim-to-real validation",
+    "robot dynamics",
+    "experimental robotics",
+    "Isaac Sim",
+    "INA219",
+    "supercapacitors"
+  ],
+  "citation": "Cordero Pareja, J. A., López Sotelo, J. A., & Carreño Zagarra, J. J. (2026). Experimental Dataset and Servo Motor Modeling for the Quadruped Robot TWINIA. GitHub Repository."
+}
