@@ -122,12 +122,6 @@ Plots and validation results comparing simulation and real robot behavior
 docs/
 Dataset documentation and experimental description
 
-
-
-
-
-
-
 ---
 
 # Applications
@@ -169,6 +163,16 @@ Dataset DOI (to be generated through Zenodo)
 
 Jhonattan Alexander Cordero Pareja  
 Doctoral Researcher in Engineering
+
+## Co-Authors
+
+Jesús Alfonso López Sotelo  
+Director of Doctoral Thesis  
+Universidad Autónoma del Occidente (UAO)
+
+José Jorge Carreño Zagarra  
+Research Tutor – Doctoral Internship  
+Universidad Industrial de Santander (UIS)
 
 Research Area:
 - Robotics
