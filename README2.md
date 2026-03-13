@@ -106,3 +106,85 @@ This approach enables the development of more accurate robotic simulations.
 # Repository Structure
 
 The repository is organized as follows:
+
+dataset/
+Experimental measurements recorded during servo motor tests
+
+scripts/
+Python scripts used for data processing and parameter identification
+
+models/
+Mathematical models of the servo motors
+
+figures/
+Plots and validation results comparing simulation and real robot behavior
+
+docs/
+Dataset documentation and experimental description
+
+
+
+
+
+
+
+---
+
+# Applications
+
+This repository may be useful for researchers working in the following areas:
+
+- Digital Twins
+- Quadruped Robotics
+- Robot Dynamics
+- Actuator Modeling
+- System Identification
+- Simulation-to-Reality Transfer
+- Experimental Robotics
+
+The dataset and modeling tools enable reproducible research in robotic system identification and digital twin validation.
+
+---
+
+# Dataset Availability
+
+The experimental dataset provided in this repository is released in open CSV format to support transparency and reproducibility in robotics research.
+
+The dataset contains measurements recorded during laboratory experiments performed on the quadruped robot TWINIA.
+
+---
+
+# Citation
+
+If you use this dataset or code in your research, please cite:
+
+Cordero Pareja, J. A. (2026)  
+Experimental Dataset and Servo Motor Modeling for the Quadruped Robot TWINIA.
+
+Dataset DOI (to be generated through Zenodo)
+
+---
+
+# Author
+
+Jhonattan Alexander Cordero Pareja  
+Doctoral Researcher in Engineering
+
+Research Area:
+- Robotics
+- Digital Twins
+- Artificial Intelligence for Autonomous Systems
+
+---
+
+# License
+
+This project is released under the MIT License.
+
+---
+
+# Acknowledgments
+
+This work was developed as part of a doctoral research project focused on the development of digital twins for robotic systems.
+
+The research integrates experimental robotics, system identification, and simulation technologies to improve the reliability of robotic simulations and enable more effective sim-to-real transfer.
