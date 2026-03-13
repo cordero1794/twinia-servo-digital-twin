@@ -1,0 +1,26 @@
+experiment_id,test_type,platform,phase,power_system,current_sensor,time_s,voltage_V,current_A,position_deg,velocity_deg_s,torque_Nm,notes
+TWINIA_SERVO_03,chirp_input,real_robot,parameter_identification,standard_battery,INA219,0.00,6.05,0.18,0.0,0.0,0.00,start of chirp excitation
+TWINIA_SERVO_03,chirp_input,real_robot,parameter_identification,standard_battery,INA219,0.05,6.04,0.21,0.8,30.0,0.02,low frequency excitation
+TWINIA_SERVO_03,chirp_input,real_robot,parameter_identification,standard_battery,INA219,0.10,6.03,0.24,2.2,55.0,0.03,low frequency response
+TWINIA_SERVO_03,chirp_input,real_robot,parameter_identification,standard_battery,INA219,0.15,6.03,0.27,4.1,80.0,0.04,frequency increasing
+TWINIA_SERVO_03,chirp_input,real_robot,parameter_identification,standard_battery,INA219,0.20,6.02,0.31,6.5,105.0,0.05,mid-frequency region
+TWINIA_SERVO_03,chirp_input,real_robot,parameter_identification,standard_battery,INA219,0.25,6.02,0.36,9.5,130.0,0.06,actuator response
+TWINIA_SERVO_03,chirp_input,real_robot,parameter_identification,standard_battery,INA219,0.30,6.01,0.40,13.2,150.0,0.07,mid-frequency response
+TWINIA_SERVO_03,chirp_input,real_robot,parameter_identification,standard_battery,INA219,0.35,6.01,0.45,17.5,170.0,0.08,response increase
+TWINIA_SERVO_03,chirp_input,real_robot,parameter_identification,standard_battery,INA219,0.40,6.00,0.49,22.0,185.0,0.09,stable excitation
+TWINIA_SERVO_03,chirp_input,real_robot,parameter_identification,standard_battery,INA219,0.45,6.00,0.53,26.5,195.0,0.10,approaching higher frequency
+TWINIA_SERVO_03,chirp_input,real_robot,parameter_identification,standard_battery,INA219,0.50,5.99,0.57,31.0,205.0,0.11,frequency sweep
+TWINIA_SERVO_03,chirp_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.55,6.00,0.90,35.5,230.0,0.14,simulation dynamic response
+TWINIA_SERVO_03,chirp_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.60,6.00,1.40,39.8,255.0,0.17,simulated frequency growth
+TWINIA_SERVO_03,chirp_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.65,6.00,2.00,44.0,270.0,0.20,high frequency simulation
+TWINIA_SERVO_03,chirp_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.70,6.00,2.70,47.5,285.0,0.23,current demand increasing
+TWINIA_SERVO_03,chirp_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.75,6.00,3.50,50.2,295.0,0.26,simulation load growth
+TWINIA_SERVO_03,chirp_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.80,6.00,4.60,52.0,305.0,0.29,simulated dynamic stress
+TWINIA_SERVO_03,chirp_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.85,6.00,5.80,53.5,315.0,0.32,current increase
+TWINIA_SERVO_03,chirp_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.90,6.00,7.10,54.5,320.0,0.35,approaching current threshold
+TWINIA_SERVO_03,chirp_input,isaac_sim,sim_validation,virtual_power_model,virtual_sensor,0.95,6.00,8.30,55.3,325.0,0.38,current above physical limit
+TWINIA_SERVO_03,chirp_input,analysis,energy_evaluation,supercapacitor_assist,INA219,1.00,5.97,0.68,56.0,150.0,0.14,supercapacitor stabilization
+TWINIA_SERVO_03,chirp_input,analysis,energy_evaluation,supercapacitor_assist,INA219,1.05,5.97,0.65,56.3,130.0,0.13,voltage drop mitigation
+TWINIA_SERVO_03,chirp_input,analysis,energy_evaluation,supercapacitor_assist,INA219,1.10,5.96,0.63,56.6,110.0,0.13,stable current region
+TWINIA_SERVO_03,chirp_input,analysis,energy_evaluation,supercapacitor_assist,INA219,1.15,5.96,0.61,56.8,90.0,0.12,energy buffer support
+TWINIA_SERVO_03,chirp_input,analysis,energy_evaluation,supercapacitor_assist,INA219,1.20,5.96,0.60,57.0,75.0,0.12,end of chirp test
