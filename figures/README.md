@@ -8,7 +8,7 @@ The plots are automatically generated using the analysis scripts included in the
 
 ## Step Response Analysis
 
-![Step Response](figures/servo_test_step_01_current.png)
+
 
 The step response plots illustrate the actuator behavior when a sudden change in the control input is applied to the servo motor. These graphs are used to analyze the transient dynamics of the actuator, including rise time, stabilization time, and the initial current demand required to move the robot joint.
 
@@ -18,7 +18,7 @@ The step experiment provides important insights into the dynamic response of the
 
 ## Ramp Response Analysis
 
-![Ramp Response](figures/servo_test_ramp_01_current.png)
+
 
 The ramp response plots represent the behavior of the servo motor when the input signal increases gradually over time. This type of excitation simulates smooth joint movements similar to those that occur during locomotion.
 
@@ -30,7 +30,7 @@ These results are important for validating the actuator model under realistic ro
 
 ## Chirp Excitation Analysis
 
-![Chirp Response](figures/servo_test_chirp_01_current.png)
+
 
 The chirp excitation plots show the response of the servo motor when subjected to a frequency sweep signal. In this test, the frequency of the input signal increases progressively, allowing the actuator to be excited across a wide range of dynamic frequencies.
 
@@ -40,7 +40,7 @@ This experiment is particularly useful for identifying the frequency response ch
 
 ## Combined System Behavior
 
-![Combined Variables](figures/servo_test_step_01_combined.png)
+
 
 The combined plots show the relationship between several measured variables, including voltage, current consumption, joint position, angular velocity, and estimated torque. By analyzing these variables simultaneously, it is possible to better understand the interaction between the electrical and mechanical components of the actuator system.
 
